@@ -31,6 +31,11 @@ class TestClass
     {
         echo 'make test';
     }
+
+    public static function someTest()
+    {
+        return 'some_test';
+    }
 }
 
 $class = new TestClass('Привет');
