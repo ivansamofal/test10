@@ -1,7 +1,9 @@
 <?php
-// Объявление простого класса
+
 class TestClass
 {
+    const TEST_CONSTANT = 1;
+
     public $foo;
     private $test;
 
@@ -14,6 +16,7 @@ class TestClass
     {
         return $this->foo;
     }
+
     public function setTest($value)
     {
         $this->test = $value;
