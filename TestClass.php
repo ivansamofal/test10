@@ -26,6 +26,11 @@ class TestClass
     {
         return $this->test;
     }
+
+    public function makeTest()
+    {
+        echo 'make test';
+    }
 }
 
 $class = new TestClass('Привет');
