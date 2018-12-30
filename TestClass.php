@@ -32,6 +32,11 @@ class TestClass
         echo 'make test';
     }
 
+    public static function testTest()
+    {
+        return 'test';
+    }
+
     public static function someTest()
     {
         return 'some_test';
